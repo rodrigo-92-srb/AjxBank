@@ -47,6 +47,6 @@ public abstract class Account {
     }
 
     public void showInfo(){
-        System.out.println("Name: " + name + ", Account Number: " + number + ", Balance: " +balance);
+        System.out.println("Account Info\nName: " + name + ", Account Number: " + number + ", Balance: " +balance);
     }
 }
