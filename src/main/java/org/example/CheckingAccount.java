@@ -15,4 +15,8 @@ public class CheckingAccount extends Account{
     public void setTax(double tax){
         this.tax = tax;
     }
+
+    public void applyTax(){
+        this.Withdraw(this.getTax());
+    }
 }
